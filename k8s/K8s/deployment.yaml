@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: devops-app
-          image: YOUR_ECR_REPO_URL:latest
+          image: rashidnisar/devops-app:latest
           ports:
-            - containerPort: 8080
+            - containerPort: 9090
